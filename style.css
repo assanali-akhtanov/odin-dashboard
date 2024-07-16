@@ -1,0 +1,67 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.main-page {
+  display: grid;
+  grid-template-columns: 270px 1fr;
+  height: 100%;
+}
+
+.sidebar {
+  background-color: #10a1e4e1;
+  display: grid;
+  grid-template-rows: 25px 300px 105px;
+  row-gap: 70px;
+  padding-left: 25px;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.sidebar-logo {
+  padding-top: 10px;
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.sidebar-profile {
+  display: grid;
+  grid-template-rows: 40px 40px 40px 40px 40px 40px;
+  grid-template-columns: 20px 1fr;
+  row-gap: 10px;
+  column-gap: 15px;
+  align-items: center;
+}
+
+.sidebar-settings {
+  display: grid;
+  grid-template-rows: 30px 30px 30px;
+  grid-template-columns: 20px 1fr;
+  row-gap: 10px;
+  column-gap: 15px;
+  align-items: center;
+}
+
+
+
+
+.main-section {
+  background-color: grey;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 150px 1fr;
+}
+
+.header {
+  background-color: white;
+  display: grid;
+}
+
+.blog {
+  background-color: pink;
+}
