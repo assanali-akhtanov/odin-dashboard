@@ -179,5 +179,155 @@ html, body {
 }
 
 .blog {
+  background-color: rgba(226,232,240,255);
+  display: flex;
+}
+
+.blog-container-left {
+  width: 830px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.blog-paragraphs {
+  font-weight: 500;
+  font-size: 19px;
+  margin-bottom: 20px;
+}
+
+.projects {
+  display: grid;
+  row-gap: 25px;
+  column-gap: 25px;
+  grid-template-columns: 400px 400px;
+  grid-template-rows: 170px 170px 170px;
+}
+
+
+.project {
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  border: none;
+
+}
+
+.yellow-bar {
+  background-color: orange;
+  height: 100%;
+  width: 10px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.project-main {
+  width: 390px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-description {
+  display: flex;
+  flex-direction: column;
+  /* background-color: red; */
+  padding-left: 20px;
+  padding-top: 30px;
+  font-size: 15px;
+  color: #585858;
+  height: 100px;
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.project-icons {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.project-icon {
+  width: 23px;
+  height: 23px;
+  margin-right: 20px;
+}
+
+.blog-container-right {
+  display: flex;
+  flex-direction: column;
   background-color: pink;
+  flex: 1;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.announcements-container {
+  flex: 1;
+}
+
+.announcements-box {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 8px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 30px;
+}
+
+.announcement {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.announcement-title {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.announcement-text {
+  font-size: 15px;
+  color: #585858;
+}
+
+.trending-container {
+  flex: 1;
+}
+
+
+.trending-profile-container {
+  display: flex;
+  /* background-color: red; */
+  align-content: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+
+.trending-profile-picture, .trending-profile-picture-container {
+  width: 40px;
+}
+
+.trending-profile-picture {
+  border-radius: 20px;
+}
+
+.trending-profile-picture-container {
+  width: 50px;
+}
+.trending-profile-description-container {
+  display: flex;
+  flex-direction: column;
 }
